@@ -20,39 +20,40 @@
             <!--Columnas-->
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-
-        <Button Text="Enviar"
+        <ColumnDefinition Width="Auto"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <Button Text="Uno"
                 BackgroundColor="Green">
 
         </Button>
-        <Button Text="Cancelar."
+        <Button Text="Dos."
                 BackgroundColor="Red"
                 Grid.Row="1">
 
         </Button>
-        <Button Text="Boton 3"
+        <Button Text="Tres"
                 BackgroundColor="Blue"
                 Grid.Row="2">
 
         </Button>
-        <Button Text="Boton 4"
+        <Button Text="Cuatro"
                 BackgroundColor="Green"
                 Grid.Column="1">
 
         </Button>
-        <Button Text="Boton 5"
+        <Button Text="Cinco"
                 BackgroundColor="Green"
                 Grid.Column="1"
                 Grid.Row="1">
 
         </Button>
-        <Button Text="Boton 6"
+        <Button Text="Seis"
                 BackgroundColor="Green"
                 Grid.Column="1"
                 Grid.Row="2">
 
         </Button>
-        <Button Text="Boton 7"
+        <Button Text="Siete"
                 BackgroundColor="Chocolate"
                 Grid.ColumnSpan="2"
                 Grid.Row="3">

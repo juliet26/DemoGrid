@@ -21,7 +21,8 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <ColumnDefinition Width="Auto"></ColumnDefinition>
-        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="3"></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
         <Button Text="Uno"
                 BackgroundColor="Green">
 
@@ -59,6 +60,25 @@
                 Grid.Row="3">
 
         </Button>
+        <BoxView
+            BackgroundColor="Gold"
+            Grid.Column="2">
+        </BoxView>
+        <BoxView
+            BackgroundColor="Blue"
+            Grid.Column="2"
+            Grid.Row="1">
+        </BoxView>
+        <BoxView
+            BackgroundColor="Yellow"
+            Grid.Column="2"
+            Grid.Row="2">
+        </BoxView>
+        <BoxView
+            BackgroundColor="Orange"
+            Grid.Column="2"
+            Grid.Row="3">
+        </BoxView>
     </Grid>
 
 </ContentPage>
